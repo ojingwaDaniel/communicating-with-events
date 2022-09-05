@@ -48,4 +48,9 @@ for(let color of colors){
   boxes.addEventListener('click',pickColor)
 
 }
-
+// eventListeners objects 
+// it is used when you need the each value or input of the eventListener
+let keyValue = document.body
+keyValue.addEventListener('keypress',function(key){
+  console.log(key)
+})
